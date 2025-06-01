@@ -11,7 +11,7 @@
 }
 
 html {
-    font-size: 62.5%;
+    font-size:62.5%;
 }
 
 body {
@@ -329,3 +329,153 @@ span {
         margin-top: 4rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SERVICES */
+.Services {
+    background-color: #0e0e0e;
+}
+.Services h2 {
+    font-size: 4rem;
+    color: #b74b4b;
+    margin-bottom: 2rem;
+}
+.service-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+.service-card {
+    background-color: #1c1c1c;
+    padding: 5rem;
+    border-left: 4px solid #b74b4b;
+    border-radius: 1rem;
+    transition: 0.3s ease;
+}
+.service-card:hover {
+    box-shadow: 0 0 15px #b74b4b;
+    transform: translateY(-5px);
+}
+
+/* SKILLS */
+.Skills {
+    background-color: #121212;
+}
+.Skills h2 {
+    font-size: 4rem;
+    color: #b74b4b;
+    margin-bottom: 2rem;
+}
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.skill-list span {
+    background-color: #1a1a1a;
+    padding: 1rem 2rem;
+    border: 1px solid #b74b4b;
+    border-radius: 2rem;
+    font-size: 1.4rem;
+}
+
+/* EDUCATION */
+.Education {
+    background-color: #101010;
+}
+.Education h2 {
+    font-size: 4rem;
+    color: #b74b4b;
+    margin-bottom: 2rem;
+}
+.edu-card {
+    border-left: 3px solid #b74b4b;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+.edu-card h3 {
+    font-size: 2.2rem;
+    color: white;
+}
+.edu-card span {
+    font-size: 1.4rem;
+    color: #aaa;
+}
+.edu-card p {
+    font-size: 1.6rem;
+    color: #ccc;
+}
+
+/* EXPERIENCE */
+.Experience {
+    background-color: #0d0d0d;
+}
+.Experience h2 {
+    font-size: 4rem;
+    color: #b74b4b;
+    margin-bottom: 2rem;
+}
+.project-card {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #b74b4b;
+    border-radius: 2rem;
+}
+.project-card h3 {
+    font-size: 3rem;
+    color: white;
+}
+.project-card a {
+    color: #b74b4b;
+    text-decoration: underline;
+}
+
+/* CONTACT */
+.Contact {
+    background-color: #111;
+}
+.Contact h2 {
+    font-size: 4rem;
+    color: #b74b4b;
+    margin-bottom: 2rem;
+}
+.Contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 600px;
+}
+.Contact input,
+.Contact textarea {
+    padding: 1.2rem;
+    background: #000;
+    color: white;
+    border: 1px solid #b74b4b;
+    border-radius: 0.5rem;
+}
+.Contact input:focus,
+.Contact textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #b74b4b;
+}
+.Contact button {
+    align-self: flex-start;
+}
+
